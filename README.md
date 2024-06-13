@@ -1,4 +1,4 @@
-# EVM-based Chains
+# EVM based Chains
 
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
@@ -49,9 +49,9 @@ when an icon is used in either the network or an explorer there must be a json i
 ```
 
 where:
- * the URL must be an IPFS url that is publicly resolvable
- * width and height are positive integers
- * format is either "png", "jpg" or "svg"
+ * the URL must be an IPFS url that is publicly resolvable.
+ * width and height are positive integers.
+ * format is either "png", "jpg" or "svg".
 
 If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
 
